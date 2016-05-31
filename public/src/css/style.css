@@ -7,7 +7,7 @@ main {
 /*html, body, 
 */
 
-.view {
+.bg-sizing {
 	height: 462px;
 }
 
@@ -45,8 +45,8 @@ main {
 
 
 /*Intro*/
-.view {
-    background: url("http://www.hawkridgesys.com/files/bg-gradient-pcb.jpg")no-repeat center center fixed;
+.bg-sizing {
+    background: url("../../images/bg-gradient-pcb.jpg")no-repeat center center fixed;
         -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -55,7 +55,7 @@ main {
 
 @media (max-width: 768px) {
     .full-bg-img,
-    .view {
+    .bg-sizing {
         height: auto;
         position: relative;
     }
@@ -66,4 +66,25 @@ main {
     /*padding-top: 12.5%;*/
     /*padding-bottom: 3rem;*/
     color: #fff
+}
+
+/*Shopify stuff*/
+.product {
+  max-width: 400px;
+  box-shadow: 0 0 15px 5px #eee;
+  padding: 30px;
+}
+
+.product__buy {
+  background: #7ab55c;
+  padding: 0.5625em 1.875em;
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.product__buy:hover {
+  text-decoration: none;
+  background: #6aa74c;
 }
