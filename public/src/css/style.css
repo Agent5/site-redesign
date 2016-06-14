@@ -179,11 +179,15 @@ ul.nav.navbar-nav {
 /*Contol hover menu size, color*/
 li.nav-item.dropdown > ul > li a{
   font-size: 1rem;
-  color: #000;
+  color: #373a3c;
 }
 
 @media (min-width: 979px) {
   ul.nav li.dropdown:hover > ul.dropdown-menu {
     display: block;
   }
+}
+
+.mo-padding-top {
+  padding-top: 30px;
 }
