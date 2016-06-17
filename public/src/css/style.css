@@ -1,10 +1,16 @@
 body {
   background-color: #ECEFF1;
+  /*margin-top: 50px;*/
 }
 /* YOUR CUSTOM STYLES */
 main {
 	/*padding-top: 62px;*/
 	padding-bottom: 2rem;
+}
+
+.navbar-lower {
+    margin-top: 0;
+    padding-top: 65px;
 }
 
 /*html, body, 
@@ -13,7 +19,9 @@ main {
 /*.bg-sizing {
 	height: 462px;
 }*/
-
+.dodge-nav {
+  padding-top: 72px;
+}
 #main {
   padding-top: 81px;
 }
@@ -21,6 +29,10 @@ main {
 .extra-margins {
 	margin-top: 2.5rem;
 	margin-bottom: 2.5rem;
+}
+.extra-paddings {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 #contact .fa {
@@ -57,16 +69,19 @@ main {
 
 /*Intro*/
 .bg-sizing {
-    background: url("../../images/bg-gradient-pcb.jpg")no-repeat center center fixed;
+    background: url("../../images/bg-gradient-pcb.jpg") center no-repeat;
+    margin-top: 74px;
         -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height: 300px;
 }
 
 @media (max-width: 768px) {
     .full-bg-img,
     .bg-sizing {
+    margin-top: 74px;
         height: auto;
         position: relative;
     }
@@ -190,4 +205,125 @@ li.nav-item.dropdown > ul > li a{
 
 .mo-padding-top {
   padding-top: 30px;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sub-nav {
+  margin-bottom: 1.5rem;
+}
+
+.soft-emphasis {
+  color: rgb(128, 124, 124);
+}
+
+.form-sizer {
+  width: 85%;
+  margin-left: 1.3rem;
+}
+
+.form-border {
+  border: 1px #ccc solid;
+}
+
+.slugline {
+  color: #e65100;
+}
+
+.drop-extend {
+  min-width: 180px;
+}
+
+.dropdown-submenu  {
+  font-size: .5rem;
+
+}
+
+ul > li.nav-item.dropdown > ul > li > a {
+  font-size: .8rem;
+
+}
+
+ul > li.nav-item.dropdown > ul > li > ul > li > a {
+  font-size: .9rem;
+}
+
+ul > li.nav-item.dropdown > ul > li > ul {
+  min-width: 700px;
+}
+
+ul.dropdown-header > li {
+  color: yellow;
+}
+
+.divide-nav{
+  height: 50px;
+  background-color: #428bca;
+}
+
+.divide-text{
+    color:#fff;
+    line-height: 20px;
+    font-size:20px;
+    padding: 15px 0;
+}
+
+.affix {
+  top: 50px;
+  width:100%;
+}
+
+.navbar-form {
+   padding-left: 0;
+}
+
+.navbar-collapse{
+   padding-left:0; 
+}
+
+.carousel-image {
+  min-width: 100%;
+}
+
+.carousel-inner {
+  max-height: 400px;
+}
+
+.card-image {
+  min-width: 100%;
+}
+.shop-nav-btn {
+    margin-top: 0px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 0px;
+}
+
+.breadcrumb {
+  background: none;
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 0;
+}
+
+.navbar.twoRow {
+  margin-top: 65px;
+  padding: 0;
+}
+
+#second-row > ul {
+  padding: 0;
+}
+
+ul.nav.navbar-nav.second-row {
+    padding: 0;
+}
+
+ul.nav.navbar-nav.second-row li > a {
+  margin: 0;
 }
